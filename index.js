@@ -82,3 +82,28 @@ do{
     console.log("do-while loop")
     i++
 }while(i<=5)
+
+
+//switch
+
+let day="sun"
+
+switch(day){
+    case "mon":
+    case "tue":
+    case "wed":
+    case "thu":
+        console.log("8am")
+        break
+    case "fri":
+        console.log("9am")
+        break
+    case "sat":
+    case "sun":
+        console.log("11am")
+        break
+    default:
+        console.log("work hard!")   
+}
+
+
