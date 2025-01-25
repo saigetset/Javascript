@@ -107,3 +107,15 @@ switch(day){
 }
 
 
+//function expression - assign function to a variable
+let add2 = function(a,b){
+    return a+b
+}
+
+console.log(add2(2,5))
+
+
+//arrow function - If there is only one line, then no need of {}. 
+// And if that one line is return statement, then no need of return keyword
+let add3 = (a,b) => a+b
+console.log(add3(4,5))
